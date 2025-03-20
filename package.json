@@ -5,7 +5,7 @@
   "main": "greet.js",
   "scripts": {
     "start": "node server.js",
-    "lint": "eslint .",
+    "lint": "eslint --fix --ext .js,.jsx .",
     "test": "mocha test"
   },
   "license": "ISC",
